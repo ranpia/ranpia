@@ -26,7 +26,7 @@
 
 ## 🚀 대표 프로젝트
 
-### [MoleLaw][(https://github.com/ranpia/MoleLaw_backend) ](https://github.com/ranpia/MoleLaw_backend)
+### [MoleLaw][(https://github.com/ranpia/MoleLaw_backend)](https://github.com/ranpia/MoleLaw_backend)
 > **임베딩 기반 RAG 법률 상담 서비스**  
 - **Backend**: Spring Boot, MySQL, JPA, OAuth2(Google/Kakao), JWT 인증  
 - **AI**: OpenAI API, **온디맨드 벡터 임베딩 기반 법령/판례 검색**  
@@ -36,7 +36,7 @@
 
 ---
 
-### [ThinkTrip](https://github.com/ranpia/thinktrip-back)  
+### [ThinkTrip][(https://github.com/ranpia/thinktrip-back)](https://github.com/ranpia/thinktrip-back) 
 > **소셜 로그인 + GPT API 기반 여행 일정 추천 서비스**  
 - **Backend**: Spring Boot, AWS RDS, Docker, GitHub Actions  
 - **Frontend**: Next.js (반응형 UI)  
@@ -50,7 +50,7 @@
 
 ## 📂 기타 프로젝트
 
-### [MolePMS](https://github.com/ranpia/molepmsporject)
+### [MolePMS][(https://github.com/ranpia/molepmsporject)](https://github.com/ranpia/molepmsporject)
 > **JSP 기반 프로젝트 관리 시스템 + CI/CD 환경 구성**  
 - **Backend**: Spring Boot, MySQL, JPA  
 - **Frontend**: **JSP** (Java Server Pages) 기반 화면 구성  
@@ -99,14 +99,12 @@
 ---
 
 ## 🏆 Experience & Activities
-- 🏅 **정보처리기사 필기 준비 중**  
-- 💻 교내 및 외부 팀 프로젝트 10여 개 진행  
+- 🏅 **정보처리기사 실기 준비 중**  
+- 💻 교내 및 외부 팀 프로젝트 5~6여 개 진행  
 - ☁️ AWS·GCP 기반 서버 운영 및 배포 다수 경험  
-- 📊 데이터 분석 및 AI 모델 학습 실무 경험
+- 📊 데이터 분석 및 AI 모델 학습 경험
 
 ---
 
 ## 📫 Contact
-- Email: your_email@example.com
-- LinkedIn: [linkedin.com/in/your-id](https://linkedin.com/in/your-id)
-- Blog: [tech-blog.example.com](https://tech-blog.example.com)
+- Email: richard.kim146@gmail.com
