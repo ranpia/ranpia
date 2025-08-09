@@ -65,7 +65,7 @@
 
 ---
 
-### [Fruit Box AI][(https://github.com/username/FruitBoxAI)  ](https://github.com/ranpia/applegame)
+### [Fruit Box AI][(https://github.com/ranpia/applegame)  ](https://github.com/ranpia/applegame)
 > 게임 자동 플레이 + OCR + 강화학습 프로젝트  
 - **AI**: CNN 기반 딥러닝 OCR, DQN 기반 강화학습  
 - **기능**: 실시간 보드 상태 인식 → AI가 사과 그룹 선택 → 자동 드래그 실행  
