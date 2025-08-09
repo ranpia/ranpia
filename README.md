@@ -3,8 +3,7 @@
 - 💡 **Spring Boot 백엔드**와 **AI 프로젝트** 중심 개발 경험
 - 🌱 AWS·GCP 기반 클라우드 배포 및 CI/CD 경험
 - 🤝 팀 프로젝트 리딩 및 협업 경험 다수
-- 📫 Email: your_email@example.com  
-- 💼 LinkedIn: [linkedin.com/in/your-id](https://linkedin.com/in/your-id)  
+- 📫 Email: richard.kim146@gmail.com  
 - 📄 Portfolio: [정현 포트폴리오 보기](#)
 
 ---
@@ -33,11 +32,11 @@
 - **AI**: OpenAI API, **온디맨드 벡터 임베딩 기반 법령/판례 검색**  
 - **검색 구조**: 사용자 질문 → 키워드 추출 → 관련 법령·판례 실시간 조회 → 조문 chunk 벡터화 → 유사도 기반 검색 → GPT 답변 생성  
 - **Infra**: Docker, GitHub Actions, VM 배포  
-- **성과**: 법령 검색 속도 40% 단축, GPT 응답 품질 향상
+- **성과**: 법령 검색 속도 단축, GPT 응답 품질 향상
 
 ---
 
-### [ThinkTrip](https://github.com/username/ThinkTrip)  
+### [ThinkTrip](https://github.com/ranpia/thinktrip-back)  
 > **소셜 로그인 + GPT API 기반 여행 일정 추천 서비스**  
 - **Backend**: Spring Boot, AWS RDS, Docker, GitHub Actions  
 - **Frontend**: Next.js (반응형 UI)  
@@ -50,6 +49,21 @@
 ---
 
 ## 📂 기타 프로젝트
+
+### [MolePMS](https://github.com/ranpia/molepmsporject)
+> **JSP 기반 프로젝트 관리 시스템 + CI/CD 환경 구성**  
+- **Backend**: Spring Boot, MySQL, JPA  
+- **Frontend**: **JSP** (Java Server Pages) 기반 화면 구성  
+- **CI/CD**: GitHub Actions + AWS EC2 자동 배포 파이프라인 구축  
+- **기능**:
+  - 일정(Gantt Chart) 관리
+  - 프로젝트·회원 관리
+  - 일정 데이터 JSP 기반 시각화  
+- **성과**:
+  - 수동 배포 대비 배포 시간 80% 단축
+  - JSP 기반으로 빠른 프로토타입 UI 구성
+
+---
 
 ### [Fruit Box AI](https://github.com/username/FruitBoxAI)  
 > 게임 자동 플레이 + OCR + 강화학습 프로젝트  
