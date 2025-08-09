@@ -8,12 +8,6 @@
 
 ---
 
-## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ranpia&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ranpia&layout=compact&theme=radical)
-
----
-
 ## 🛠 Tech Stack
 
 **Backend**  
@@ -139,6 +133,11 @@
 - ☁️ AWS·GCP 기반 서버 운영 및 배포 다수 경험  
 - 📊 데이터 분석 및 AI 모델 학습 경험
 
+---
+
+## 📊 GitHub Stats
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=ranpia&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ranpia&layout=compact&theme=radical)
 
 ---
 
