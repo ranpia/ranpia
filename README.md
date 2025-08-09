@@ -65,7 +65,7 @@
 
 ---
 
-### [Fruit Box AI](https://github.com/username/FruitBoxAI)  
+### [Fruit Box AI][(https://github.com/username/FruitBoxAI)  ](https://github.com/ranpia/applegame)
 > 게임 자동 플레이 + OCR + 강화학습 프로젝트  
 - **AI**: CNN 기반 딥러닝 OCR, DQN 기반 강화학습  
 - **기능**: 실시간 보드 상태 인식 → AI가 사과 그룹 선택 → 자동 드래그 실행  
@@ -74,7 +74,7 @@
 
 ---
 
-### [Diary-based Emotional AI App](https://github.com/username/EmoDiary)  
+### [Diary-based Emotional AI App][(https://github.com/ranpia/AI_Diary)](https://github.com/ranpia/AI_Diary)
 > 감정 분석 + AI 상담 기능을 갖춘 일기 앱  
 - **Backend**: Spring Boot, JWT 인증, 다단계 회원가입, 이메일 인증  
 - **AI**: FastAPI 감정 분석 서버, GPT 기반 상담 대화  
