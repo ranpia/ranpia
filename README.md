@@ -26,7 +26,7 @@
 
 ## 🚀 대표 프로젝트
 
-### [MoleLaw](https://github.com/ranpia/MoleLaw_backend) 
+### [MoleLaw][(https://github.com/ranpia/MoleLaw_backend) ](https://github.com/ranpia/MoleLaw_backend)
 > **임베딩 기반 RAG 법률 상담 서비스**  
 - **Backend**: Spring Boot, MySQL, JPA, OAuth2(Google/Kakao), JWT 인증  
 - **AI**: OpenAI API, **온디맨드 벡터 임베딩 기반 법령/판례 검색**  
