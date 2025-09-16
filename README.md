@@ -4,7 +4,6 @@
 - 🌱 AWS·GCP 기반 클라우드 배포 및 CI/CD 경험
 - 🤝 팀 프로젝트 리딩 및 협업 경험 다수
 - 📫 Email: richard.kim146@gmail.com  
-- 📄 Portfolio: [정현 포트폴리오 보기](#)
 
 ---
 
