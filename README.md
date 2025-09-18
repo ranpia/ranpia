@@ -72,9 +72,7 @@
 - CIFS/SMB 프로토콜 기반 원격 의료영상 파일 접근 및 스트리밍 제공
 - JWT 기반 인증 + 사용자 로그 기록 (의료법 로그 규정 반영)
 -  **성과:** 대규모 의료 영상 데이터 처리 성능 향상 및 보안 강화
-  
 [🔗 GitHub Repo](https://github.com/24Sahmyook-Team-s1/Molecom_backend)
-
 ---
 
 ### 🌏 ThinkTrip — 소셜 로그인 + GPT API 기반 여행 일정 추천
