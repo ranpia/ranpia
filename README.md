@@ -62,6 +62,20 @@
 
 ---
 
+### 🩺 MoleComs — 의료 영상 기반 DICOM 관리 서비스
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+
+- Oracle (DICOM 메타데이터) + MySQL (로그/리포트) 멀티 DB 아키텍처
+- Study → Series → Image 구조에 맞춘 DICOM 데이터 조회 및 OHIF 뷰어 연동
+- CIFS/SMB 프로토콜 기반 원격 의료영상 파일 접근 및 스트리밍 제공
+- JWT 기반 인증 + 사용자 로그 기록 (의료법 로그 규정 반영)
+-  **성과:** 대규모 의료 영상 데이터 처리 성능 향상 및 보안 강화
+[🔗 GitHub Repo](https://github.com/24Sahmyook-Team-s1/Molecom_backend)
+
+---
+
 ### 🌏 ThinkTrip — 소셜 로그인 + GPT API 기반 여행 일정 추천
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
