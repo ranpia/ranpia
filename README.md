@@ -1,117 +1,67 @@
-# 👋 About Me
-- 🎓 삼육대학교 컴퓨터공학 졸업
-- 💡 **Spring Boot 백엔드**와 **AI 프로젝트** 중심 개발 경험
-- 🌱 AWS·GCP 기반 클라우드 배포 및 CI/CD 경험
-- 🤝 팀 프로젝트 리딩 및 협업 경험 다수
-- 📫 Email: richard.kim146@gmail.com  
+﻿# 김정현 | Java·Spring 백엔드 개발자
 
----
+Java와 Spring Boot로 인증, 데이터 처리, 외부 API 연동을 구현합니다. 팀 프로젝트에서 요구사항 분석과 기능 설계를 맡았고, 현재는 법률 상담 서비스 MoleLaw를 포크해 인증과 RAG 구조를 재구축하고 있습니다.
 
-## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ranpia&show_icons=true&theme=blue_navy)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ranpia&layout=compact&theme=blue_navy)
+[이력서](이력서_김정현.md) · [상세 포트폴리오](포트폴리오_김정현.md) · [MoleLaw 개인 재구축](docs/MoleLaw_개인재구축.md) · [Email](mailto:richard.kim146@gmail.com)
 
----
+삼육대학교 컴퓨터공학과 졸업 · Java·Spring 백엔드 신입
 
-## 🛠 Tech Stack
-**Backend**  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Spring WebFlux](https://img.shields.io/badge/Spring%20WebFlux-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![JPA](https://img.shields.io/badge/Hibernate%20JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=postman&logoColor=white)
+## 주요 기술
 
-**Frontend**  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)
+| 분야 | 사용 경험 |
+| --- | --- |
+| 백엔드 | Java, Spring Boot, Spring Security, Spring Data JPA, REST API |
+| 데이터·인증 | MySQL, Oracle, Redis, JWT, OAuth2 |
+| AI 연동 | Spring AI, OpenAI API, 임베딩·코사인 유사도 검색 |
+| 배포·협업 | Docker, GitHub Actions, AWS EC2·RDS, Git |
+| 기타 프로젝트 | Python, PyTorch, OpenCV, Selenium, JSP |
 
-**AI / ML**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![OpenAI API](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+## 대표 프로젝트
 
-**Database**  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![AWS RDS](https://img.shields.io/badge/AWS%20RDS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+### MoleLaw | 법률 상담 서비스 → 개인 재구축
 
-**Infra / DevOps**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+**팀 프로젝트 2025.06–07 · 개인 재구축 2026.10–진행 중**
 
----
+팀장 · 총 4명(프론트엔드 1명, 백엔드 3명) · 요구사항 분석·전체 기능 설계·백엔드 개발
 
-## 🚀 대표 프로젝트
-> 제가 직접 설계·구현한 주요 프로젝트입니다.
+- 법령 청크와 질문의 임베딩을 생성하고 코사인 유사도로 검색했습니다. 임베딩 병렬 처리·중복 스킵과 유사도가 낮을 때 법령 수집·재검색하는 경로를 구현했습니다.
+- `FinalAnswer`가 검색한 법령 청크를 프롬프트와 참고자료에 반영하도록 개선하고, 답변과 Markdown 참고자료를 분리했습니다.
+- 개인 재구축에서는 Spring AI 호출 통합, 법령·판례 내부 Tool과 원문 보존, Flyway 초기 스키마를 구현했습니다.
+- Access를 최대 5분 stateless JWT로 전환하고 Redis에 Refresh 해시를 저장해 Lua 기반 회전·재사용 탐지·폐기를 구현했습니다. 기존 Access는 로그아웃 후에도 만료까지 유효할 수 있는 제약을 명시했습니다.
 
-### 🏛 MoleLaw — 임베딩 기반 RAG 법률 상담 서비스
-![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203.5-6DB33F?style=flat&logo=springboot&logoColor=white)
-![OpenAI API](https://img.shields.io/badge/GPT--4-412991?style=flat&logo=openai&logoColor=white)
+Qdrant 검색·ETL·상담 근거 스냅샷·대화 메모리는 후속 개발 계획입니다.
 
-- GPT-4 + text-embedding-3-small 기반 법령·판례 RAG 검색 및 답변 생성
-- 유사도 threshold(0.5) 미달 시 OpenLaw API에서 자동 수집·재임베딩 → fallback 재탐색
-- AES 메시지 암호화, JWT(액세스 15분 / 리프레시 7~30일), Google·Kakao OAuth2
-- Docker + GitHub Actions Blue/Green 무중단 배포  
-[🔗 GitHub Repo](https://github.com/ranpia/MoleLaw_backend)
+[팀 원본](https://github.com/24Sahmyook-Team-s1/MoleLaw_backend) · [개인 포크](https://github.com/ranpia/MoleLaw_backend) · [개발 브랜치](https://github.com/ranpia/MoleLaw_backend/tree/dev) · [설계와 구현 범위](docs/MoleLaw_개인재구축.md)
 
----
+### Molecom | DICOM 의료 영상 관리 서비스
 
-### 🩺 MoleComs — 의료 영상 기반 DICOM 관리 서비스
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+**2025.08–09 · 집중 개발 약 1개월 미만**
 
-- Oracle(DICOM 메타) / MySQL(로그·사용자) 멀티 DB 아키텍처, 트랜잭션 독립 관리
-- WebFlux `StreamingResponseBody` 기반 대용량 의료 영상 비동기 스트리밍
-- JWT 세션 회전(Session Rotation) + 단일 세션 강제, 의료법 로그 규정 대응  
-[🔗 GitHub Repo](https://github.com/24Sahmyook-Team-s1/Molecom_backend)
+팀장 · 총 4명(프론트엔드 1명, 백엔드 3명) · 요구사항 분석·전체 기능 설계·백엔드 개발
 
----
+- Oracle의 의료 영상 메타데이터와 MySQL의 서비스 데이터를 함께 다루도록 DB별 JPA 설정과 트랜잭션 매니저를 분리했습니다.
+- 환자·검사·시리즈·이미지 계층 조회와 SMB/CIFS 저장소의 DICOM 파일을 전달하는 Spring MVC 스트리밍 API를 구현했습니다.
+- 사용자 작업과 DICOM 열람 이력을 저장하고, 로그 유형별 조회 및 시간순 통합 조회 API를 구현했습니다.
 
-### 🌏 ThinkTrip — 소셜 로그인 + GPT 기반 여행 일정 추천
-![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot%203.4-6DB33F?style=flat&logo=springboot&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+[저장소](https://github.com/24Sahmyook-Team-s1/Molecom_backend)
 
-- Kakao + Google OAuth2 소셜 로그인, JWT 인증
-- GPT 기반 맞춤형 여행 일정 생성, 무료 5회/일 · 프리미엄 무제한 호출 제한
-- `startDate` / `endDate` 모델링 + D-Day 자동 계산, Docker + GitHub Actions CI/CD  
-[🔗 GitHub Repo](https://github.com/ranpia/thinktrip-back)
+### ThinkTrip | AI 여행 일정 서비스
 
----
+**2025.04–06 · 집중 개발 약 1개월 미만, 이후 추가 개발·유지보수**
 
-## 📂 기타 프로젝트
-> 그 외 진행한 프로젝트들입니다.
+백엔드 담당 · 총 2명(프론트엔드 1명, 백엔드 1명)
 
-### 📋 MolePMS — JSP 기반 프로젝트 관리 시스템 + CI/CD
-- Java 17, JSP, Oracle 11g, Maven
-- GitHub Actions + AWS EC2 Docker 자동 배포 (수동 대비 배포 시간 80% 단축)  
-[🔗 GitHub Repo](https://github.com/ranpia/molepmsporject)
+- Google OAuth2 로그인 구현 후 Kakao 로그인으로 전환하고 JWT 인증을 연동했습니다.
+- 여행 계획의 시작일·종료일을 모델링하고, D-Day 계산과 날짜 필수 검증을 보완했습니다.
+- 사용자별 호출 횟수·날짜를 관리해 무료 계정의 GPT 사용을 하루 5회로 제한했습니다.
 
-### 🎮 Fruit Box AI — 게임 자동 플레이 + OCR + 강화학습
-- CNN OCR(PyTorch) + ConvDQN 강화학습 + Selenium 브라우저 자동화
-- OpenCV HSV 탐지 → 10×17 보드 인식 → 자동 드래그, **최고 170점 달성**  
-[🔗 GitHub Repo](https://github.com/ranpia/applegame)
+[저장소](https://github.com/Th-nkTrip/thinktrip-back)
 
-### 📓 MindNote — 감정 분석 일기 앱
-- Spring Boot 3.5 / Java 21 + React 19 + GPT-4o 감정 분석
-- 감정 트렌드 시각화 + AI 상담 + 콘텐츠 추천  
-[🔗 GitHub Repo](https://github.com/ranpia/AI_Diary)
+## 기타 프로젝트
 
----
+| 프로젝트 | 본인 커밋 활동 | 주요 내용 | 저장소 |
+| --- | --- | --- | --- |
+| MolePMS | 2025.02 | JSP 일정·간트 차트 기능, Docker·GitHub Actions 배포 설정 개선 | [GitHub](https://github.com/ranpia/molepmsporject) |
+| Fruit Box AI | 2025.03 | OpenCV 보드 인식·Selenium 자동화, CNN OCR·강화학습 실험 | [GitHub](https://github.com/ranpia/applegame) |
 
-## 🏆 Experience & Activities
-- 💻 교내 및 외부 팀 프로젝트 5~6개 진행
-- ☁️ AWS·GCP 서버 운영 및 배포 경험
-- 📊 데이터 분석 및 AI 모델 학습 경험
-
----
-
-## 📫 Contact
-[![Email](https://img.shields.io/badge/Email-richard.kim146%40gmail.com-red?style=flat&logo=gmail&logoColor=white)](mailto:richard.kim146@gmail.com)  
-![Profile Views](https://komarev.com/ghpvc/?username=ranpia&color=blueviolet&style=flat)
+기간은 저장소에서 확인한 본인 커밋 활동의 월 범위입니다. 실제 집중 개발 기간과 구분하며, 상세 날짜·리비전·확인 범위는 [프로젝트 활동 기록](docs/프로젝트_활동기록.md)에 정리했습니다.
