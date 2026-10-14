@@ -56,3 +56,19 @@ Qdrant 검색·ETL·Ollama 애플리케이션 연동, 상담방 근거 스냅샷
 - [Refresh 회전 구현](https://github.com/ranpia/MoleLaw_backend/blob/61a4823e8a8b5ae83be1a54ade02d04a32a1fad3/docs/refresh-rotation.md)
 - [RAG·ETL 계획](https://github.com/ranpia/MoleLaw_backend/blob/61a4823e8a8b5ae83be1a54ade02d04a32a1fad3/docs/plans/rag-etl.md)
 - [단계별 검증 계획](https://github.com/ranpia/MoleLaw_backend/blob/61a4823e8a8b5ae83be1a54ade02d04a32a1fad3/docs/plans/delivery-validation.md)
+
+## 사용자 확인: 임베딩 비교 계획 (2026-10-15)
+
+여러 임베딩 방식을 적용·비교하는 실험은 아직 수행하지 않았다. 사용자는 앞으로 질문과 법령의 유사도를 비교해 사용할 방식을 선정할 계획이라고 설명했다. 기존 임베딩 검색 구현과 여러 방식의 비교 검증 경험은 구분한다. 후보 방식과 평가 데이터, 선정 기준은 후속 설계에서 구체화하며 검색 품질 개선 결과는 아직 없다.
+
+## 교육에서 재구축으로 이어진 배경 (2026-10-15)
+
+사용자 설명에 따르면 팀 개발 당시에는 Spring AI를 알지 못했다. 이후 교육에서 오케스트레이터 개념을 접했고, 임베딩 검색과 챗봇을 연결하는 흐름을 조정하면서 법령·판례 조회를 Tool로 활용하려는 목적으로 재구축을 진행하고 있다.
+
+2026-10-15 GitHub 재확인에서도 `dev=61a4823`, `main=ec9d87b`였다. Spring AI 호출 통합과 내부 Tool은 구현돼 있으나 `docs/legal-api-tools.md`는 ChatClient에 Tool을 등록하지 않는다고 명시한다. `docs/plans/orchestration-models.md`의 검색 계획·근거 검토·답변 역할별 오케스트레이터는 계획 상태다. 학습 내용을 설계와 일부 구현에 적용한 경험으로 설명하며 전체 상담 연결 완료로 표현하지 않는다.
+
+## Advisor 활용과 챗봇 제약 검증 계획 (2026-10-15)
+
+사용자는 기존 GPT 챗봇에서 주로 시스템 프롬프트를 사용했고 Advisor를 활용하지 못한 아쉬움이 있다고 설명했다. 개인 재구축에서는 Spring AI Advisor로 챗봇에 제약을 적용하고 탈옥 등 보안 문제에 대응하려는 목표가 있다. 아직 구현·효과 검증이 완료된 경험은 아니다.
+
+자기소개서 초안에는 요청·응답 검증, 서버의 도구 실행 제한, 탈옥·프롬프트 인젝션 시도와 정상 질문을 함께 평가하는 방향으로 구체화했다. 이는 작성 과정에서 제안한 후속 검증 방향이며, 확정된 구현 명세나 수행 결과로 취급하지 않는다. 기존 대화 메모리 Advisor 계획과 이번 제약·보안 검증 목표는 구분한다.
