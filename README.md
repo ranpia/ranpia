@@ -29,11 +29,14 @@ Java와 Spring Boot로 인증, 데이터 처리, 외부 API 연동을 구현합�
 - 법령 청크와 질문의 임베딩을 생성하고 코사인 유사도로 검색했습니다. 임베딩 병렬 처리·중복 스킵과 유사도가 낮을 때 법령 수집·재검색하는 경로를 구현했습니다.
 - `FinalAnswer`가 검색한 법령 청크를 프롬프트와 참고자료에 반영하도록 개선하고, 답변과 Markdown 참고자료를 분리했습니다.
 - 개인 재구축에서는 Spring AI 호출 통합, 법령·판례 내부 Tool과 원문 보존, Flyway 초기 스키마를 구현했습니다.
+- 별도 실험 브랜치에서 법령 자료와 질문 110개를 고정하고 EmbeddingGemma·BGE-M3·KURE-v1의 300/500/700문자 청크 9개 조합을 평가했습니다. 개발용 Recall@5로 우선 후보를 정하고 질문 정제 전후의 검색 결과도 비교했습니다. 서비스 적용 전의 오프라인 검색 실험입니다.
 - Access를 최대 5분 stateless JWT로 전환하고 Redis에 Refresh 해시를 저장해 Lua 기반 회전·재사용 탐지·폐기를 구현했습니다. 기존 Access는 로그아웃 후에도 만료까지 유효할 수 있는 제약을 명시했습니다.
 
 Qdrant 검색·ETL·상담 근거 스냅샷·대화 메모리는 후속 개발 계획입니다.
 
 [팀 원본](https://github.com/24Sahmyook-Team-s1/MoleLaw_backend) · [개인 포크](https://github.com/ranpia/MoleLaw_backend) · [개발 브랜치](https://github.com/ranpia/MoleLaw_backend/tree/dev) · [설계와 구현 범위](docs/MoleLaw_개인재구축.md)
+
+[임베딩 실험 결과 · 2026-10-16](https://github.com/ranpia/MoleLaw_backend/blob/64c34d5/evaluation/legal-retrieval/reports/comparison.md)
 
 ### Molecom | DICOM 의료 영상 관리 서비스
 
