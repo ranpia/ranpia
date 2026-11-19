@@ -29,7 +29,7 @@ Java와 Spring으로 인증과 데이터 조회 API를 개발했습니다. 법�
 - **팀 개발** — 4명 팀의 팀장으로 요구사항과 기능을 설계하고, 법령 임베딩 검색을 맡았습니다. 팀원과 답변 생성부를 개발하고 검색된 조문을 답변과 참고자료에 연결했습니다.
 - **개인 재구축** — Spring AI와 Qdrant로 검색 흐름을 다시 구성했습니다. 후보의 순서를 바꾸는 실험과 빠진 근거를 추가 검색하는 실험을 진행했고, 개발 브랜치에서 법령 수집을 검색 도구로 호출하도록 변경했습니다.
 
-[![MoleLaw 답변의 출처 목록 화면. 클릭하면 구동 영상 열기](docs/molelaw/molelaw-demo-preview.jpg)](https://drive.google.com/file/d/1ZUu3FD2njk2aI4vAd9R_jOb5f5j6t2xe/view?usp=drive_link)
+[![MoleLaw 상담 시작 화면. 클릭하면 구동 영상 열기](docs/molelaw/molelaw-demo-home.jpg)](https://drive.google.com/file/d/1ZUu3FD2njk2aI4vAd9R_jOb5f5j6t2xe/view?usp=drive_link)
 
 [▶ MoleLaw 구동 영상](https://drive.google.com/file/d/1ZUu3FD2njk2aI4vAd9R_jOb5f5j6t2xe/view?usp=drive_link) · [설계와 실험 결과](포트폴리오_김정현.md#molelaw) · [팀 저장소](https://github.com/24Sahmyook-Team-s1/MoleLaw_backend) · [개인 개발 브랜치](https://github.com/ranpia/MoleLaw_backend/tree/dev)
 
